@@ -12,11 +12,12 @@ public static void main(String [] args){
     Calculator Casio = new Calculator();
     int Sum = Casio.add(10,5);
     System.out.println("Sum = "+Sum);
-    int dif = Casio.sub(10,5);
+    int dif = Casio.sub(14,7);
     System.out.println("Difference = "+dif);
-    int pro = Casio.mul(10,5);
+    int pro = Casio.mul(3,6);
     System.out.println("Product = "+pro);
-    int quo = Casio.div(10,5);
+    int quo = Casio.div(60,4);
     System.out.println("Quotient = "+quo);
 }    
 }
+
